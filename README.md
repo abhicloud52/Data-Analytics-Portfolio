@@ -1,4 +1,66 @@
 # Data Analytics Portfolio
+portfolio/
+│
+├── README.md
+├── requirements.txt
+│
+├── data/
+│   ├── retail_sales/
+│   │   └── R C2 Market.csv
+│   ├── finance/
+│   │   └── finance_data.csv
+│   └── weather/
+│       └── weatherHistory.csv
+│
+├── notebooks/
+│   ├── sales_analysis.ipynb
+│   ├── Finance-Analysis.ipynb
+│   └── Weather-Analysis.ipynb
+│
+├── reports/
+│   ├── sales_analysis_report.pdf
+│   ├── finance_analysis_report.pdf
+│   └── weather_analysis_report.pdf
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── sales_analysis.py
+│   ├── finance_analysis.py
+│   ├── weather_analysis.py
+│   └── visualization.py
+│
+├── visualizations/
+│   ├── sales/
+│   │   ├── daily_sales_trend.png
+│   │   ├── sales_by_category.png
+│   │   ├── profit_by_region.png
+│   │   └── top_cities_sales.png
+│   ├── finance/
+│   │   ├── gender_distribution.png
+│   │   ├── investment_avenues.png
+│   │   ├── source_of_information.png
+│   │   └── monitoring_frequency.png
+│   └── weather/
+│       ├── temperature_trend.png
+│       ├── humidity_distribution.png
+│       ├── wind_speed_analysis.png
+│       └── weather_correlation.png
+│
+├── presentation/
+│   ├── portfolio_overview.pptx
+│   ├── sales_analysis_presentation.pptx
+│   ├── finance_analysis_presentation.pptx
+│   └── weather_analysis_presentation.pptx
+│
+└── docs/
+    ├── setup_guide.md
+    ├── project_methodology.md
+    ├── technical_notes.md
+    ├── testing_validation.md
+    └── portfolio_navigation.md
+
 
 This repository contains five end-to-end data analysis projects covering sales, student performance, weather, finance, and social media analysis.
 
